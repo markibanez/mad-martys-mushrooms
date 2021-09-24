@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "sniftie-1e4fc"
+  },
+  "targets": {
+    "sniftie-1e4fc": {
+      "hosting": {
+        "mushrooms": [
+          "mushrooms"
+        ]
+      }
+    }
+  }
+}

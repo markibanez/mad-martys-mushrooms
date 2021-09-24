@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Dr. Fungus",
+      "position": "Art",
+      "avatarUrl": "/img/bears/carousel/4.png", 
+      "contacts": {
+        "linkedin": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "DefiDoll",
+      "position": "Outreach",
+      "avatarUrl": "/img/bears/carousel/5.png", 
+      "contacts": {
+        "linkedin": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Portobello",
+      "position": "Strategy",
+      "avatarUrl": "/img/bears/carousel/6.png", 
+      "contacts": {
+        "linkedin": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Magic M",
+      "position": "Contracts",
+      "avatarUrl": "/img/bears/carousel/7.png", 
+      "contacts": {
+        "linkedin": "",
+        "twitter": ""
+      }
+    },
+    {
+      "name": "Amanita Jr",
+      "position": "Front/Back End",
+      "avatarUrl": "/img/bears/carousel/8.png", 
+      "contacts": {
+        "linkedin": "",
+        "twitter": ""
+      }
+    }
+  ]
+  

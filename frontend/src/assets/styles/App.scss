@@ -1,0 +1,90 @@
+@import "~bootstrap/scss/bootstrap";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+@import "https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900";
+
+$footer-sx-min-height: 13rem;
+$footer-lg-min-height: 26rem;
+
+@import "./src/assets/styles/components/footer";
+@import "./src/assets/styles/components/creations";
+@import "./src/assets/styles/components/navigation";
+@import "./src/assets/styles/components/team.scss";
+
+@font-face {
+  font-family: "Chiller";
+  src: url("../fonts/chiller.ttf") format("truetype");
+}
+
+body {
+  color: white;
+  background: black;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 1.875rem;
+
+  background-image: url(../img/bg-min.png);
+  background-size: contain;
+  background-position: top left;
+
+  background-repeat: repeat-x;
+  &[data-target=".navbar-fixed-top"] {
+    padding-top: 8rem;
+  }
+}
+
+a {
+  color: #cccccc;
+
+  &:focus,
+  &:active,
+  &:hover {
+    color: #efefef;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Chiller, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 5rem;
+  letter-spacing: -4px;
+  line-height: 1;
+
+  @media screen and (min-width: 768px) {
+    font-size: 6rem;
+  }
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+  &:last-child {
+    margin-bottom: 1rem;
+  }
+}
+
+.section-legal {
+  .section__content {
+    font-size: 1rem;
+  }
+}
+
+.container.main {
+  min-height: calc(100vh - #{$footer-sx-min-height} - 4rem);
+
+  @media screen and (min-width: 768px) {
+    min-height: calc(100vh - #{$footer-lg-min-height} - 10rem);
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Navigation": {
+    "Privacy Policy": "/terms",
+    "Terms": "/privacypolicy"
+  },
+  "About": {
+    "title": "In Search of the Magic Mushroom",
+    "content": "<p>As he cast his mind back to the year 1973, remembering himself as the young PHD student full of ambition, life and experimenting with Mushrooms, Marty smiled fondly.</p><p>Between 1973 and today, Marty's life has changed dramatically. He received his PHD after creating a thesis surrounding the topic of single dose psilocybin and how this drug may substantially improve quality of life.</p><p>However, Marty couldn’t just stop there. Each day he chased his initial psychoactive experience, so he grew, developed and mutated Mushrooms in hopes of achieving that long lost initial high. Soon, Marty became known as Mad Marty from the Mushroom Farm.</p><p>Today, Mad Marty is ready to unleash his creations to the world, with some Mushrooms containing secret prizes that will only be shared with its owner.</p>"
+  },
+  "Creations": {
+    "title": "Marty's Creations and Mint",
+    "content": "<p>There are 8888 of Mad Marty’s Mushrooms living on the Ethereum blockchain which will be available to mint for 0.03eth each and up to a maximum of 20 per transaction.</p>"
+  },
+  "Airdrops": {
+    "anchor": "airdrops",
+    "title": "Airdrops",
+    "content": "<p>Each and every one of Marty’s Mushrooms are magic, just some of the Mushrooms are more magic than others. Once all Mushrooms have been minted, there will be a series of Airdrops including big name NFTs and Eth to those lucky mushroom holders.</p>"
+  },
+  "DeflationaryMushrooms": {
+    "anchor": "deflationary",
+    "title": "Deflationary Mushrooms",
+    "content": "<p>In the weeks after the mushrooms sell out, mushroom holders will be able to send their mushrooms to Marty’s laboratory for him to create a brand new mushroom in return.</p><p>As Marty needs more mushrooms to create his next mushroom, this is a deflationary mechanism.</p><p>For every 2 mushrooms submitted, you will receive 1 of Marty’s new creations.</p>"
+  },
+  "Team": {
+    "anchor": "team",
+    "title": "Team",
+    "content": "We firmly believe in hiring, developing, and motivating great Mushroom people."
+  },
+  "TermsLite": {
+    "anchor": "terms",
+    "title": "Terms",
+    "content": "<p>Mad Marty's Mushrooms® is a distributed application Mushrooms that runs on the Ethereum network, using specially-developed smart contracts (each, a “Smart Contract”) to enable users to own, transfer, and breed genetically unique digital Mushrooms, which can then be visualized on a website that the user can interact with (the “Site”). <a href='/terms'>read more</a></p>"
+  },
+  "Terms": {
+    "anchor": "terms",
+    "title": "Terms",
+    "content": "<p>Mad Marty's Mushrooms® is a distributed application Mushrooms that runs on the Ethereum network, using specially-developed smart contracts (each, a “Smart Contract”) to enable users to own, transfer, and breed genetically unique digital Mushrooms, which can then be visualized on a website that the user can interact with (the “Site”). <a href='/terms'>read more</a></p>"
+  },
+  "PrivacyPolicyLite": {
+    "anchor": "privacypolicy",
+    "title": "Privacy Policy",
+    "content": "<p>Mad Marty's Mushrooms is an NFT blockchain game. Created by MMM Labs Inc. (“MMM”), Mad Marty's Mushrooms allows players to breed their cats to create their very own furry friends. MMM is committed to protecting and respecting your privacy. <a href='/privacypolicy'>read more</a></p>"
+  },
+  "PrivacyPolicy": {
+    "anchor": "privacypolicy",
+    "title": "Privacy Policy",
+    "content": "<p>Mad Marty's Mushrooms is an NFT blockchain game. Created by MMM Labs Inc. (“MMM”), Mad Marty's Mushrooms allows players to breed their cats to create their very own furry friends. MMM is committed to protecting and respecting your privacy. <a href='/privacypolicy'>read more</a></p>"
+  }
+}

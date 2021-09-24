@@ -1,0 +1,29 @@
+.footer {
+  &--background {
+    background-image: url(../../img/lastbg.png);
+    background-size: cover;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    min-height: $footer-sx-min-height;
+
+    @media screen and (min-width: 768px) {
+      min-height: $footer-lg-min-height;
+    }
+  }
+
+
+  .nav-link {
+    color: rgb(177, 87, 225);
+  }
+
+  .nav-item {
+    a::after {
+      content: "|";
+      padding-left: 2rem;
+    }
+
+    &:last-child > a::after {
+      content: none;
+    }
+  }
+}

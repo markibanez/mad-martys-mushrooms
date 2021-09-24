@@ -1,0 +1,6 @@
+FROM ghcr.io/umputun/reproxy
+COPY dist/ /srv/site/
+
+EXPOSE 8080
+USER app
+ENTRYPOINT ["/srv/reproxy", "--assets.location=/srv/site", "--assets.spa"]

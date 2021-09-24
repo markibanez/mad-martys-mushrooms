@@ -1,0 +1,10 @@
+.team__member {
+  &.col {
+    text-align: center;
+  }
+
+  &__name-position {
+    padding-top: 0.25rem;
+    font-size: 1rem;
+  }
+}
