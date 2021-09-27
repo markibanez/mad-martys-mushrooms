@@ -21,13 +21,15 @@ export default function Home(props) {
     }
 
     const chainId = '0x4'
-    const contractAddress = '0x127314AfDF97687c3744f25143cAC0F61e3963E1'
+    const contractAddress = '0x4D7fc3eEB59A75207702894282e132470130a0Ed'
 
     const mint = async () => {
+        await window.ethereum.request({ method: 'eth_requestAccounts' })
         await window.ethereum.request({
             method: 'wallet_switchEthereumChain',
             params: [{ chainId }]
         })
+        await window.ethereum.request({ method: 'eth_requestAccounts' })
 
         const provider = new ethers.providers.Web3Provider(window.ethereum, "any")
         const signer = provider.getSigner()
