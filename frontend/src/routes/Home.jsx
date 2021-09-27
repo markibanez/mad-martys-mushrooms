@@ -87,9 +87,9 @@ export default function Home(props) {
                         blockchain which will be available to mint for 0.03eth each and up
                         to a maximum of 20 per transaction.
                     </p>
-                    <p>
-                        <a className={"inline"} onClick={handleShow}>
-                            Click here to mint
+                    <p className="w-100 text-center">
+                        <a className={"inline btn btn-success btn-lg px-4"} onClick={handleShow}>
+                            <h4>Click here to mint...</h4>
                         </a>
                     </p>
                     <Modal
@@ -102,13 +102,15 @@ export default function Home(props) {
                             <Modal.Title className="lh-1">Mint your mushrooms</Modal.Title>
                         </Modal.Header>
                         <Modal.Body className={"bg-dark"}>
-                            <label>
+                            <label className="w-100 text-center">
                                 Quantity to mint
                                 <br />
-                                <input type="number" min="1" value={qtyToMint} onChange={onQtyChanged} style={{ width: '150px', textAlign: 'right' }} />
+                                <input type="number" min="1" value={qtyToMint} onChange={onQtyChanged} style={{ width: '150px', textAlign: 'center' }} />
                             </label>
                             <br /><br />
-                            <Button variant="primary" onClick={mint}>Mint</Button>
+                            <Button variant="primary px-4 w-100" onClick={mint}>
+                                <h4>Mint</h4>
+                            </Button>
                         </Modal.Body>
                     </Modal>
                     <Row className="row row-cols-1 row-cols-md-3">
